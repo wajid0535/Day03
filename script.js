@@ -1,38 +1,28 @@
-var resume=[
-  {
-  "Basic":"Basic details",
-    "Name": "Mohd Wajid",
-    "Email": "wajid0535@gamil.com",
-    "Phone": +919052458210,
-    "Degree": "M.A",
-  },
-  {
-    "Location": "Location Details",
-      "Address": "Hashamabad",
-      "PostalCode": 500005,
-      "City": "Hyderabad",
-      "State": "Telangana",
-      "Country": "India",
-  },
-  {
-  "Education": "Education details",
-  "Institution": "Manuu",
-      "Department": "Public Administration",
-      "StudyType": "Regular",
-      " Year": 2019,
-      "Percentage": 80.06,
-  },
-  {
-"Skills":"Skills Details",
-      "Name": "c,c++,java",
-      "Level": "Beginner",
-  },
-  {
-  "Languages":"Languages Known",
-      "Name": "English,Urdu,Telugu",
-  },
-  {
-  "Hobbies":"Hobbies Details",
-"Name": "Gardening,Reading,Travelling,",
-}];
-console.log(resume);
+var arr=[
+    {
+        "id": 1,
+        "first_name": "Robert",
+        "last_name": "Schwartz",
+        "email": "rob23@gmail.com"
+      },
+      {
+        "id": 2,
+        "first_name": "Lucy",
+        "last_name": "Ballmer",
+        "email": "lucyb56@gmail.com"
+      },
+      {
+        "id": 3,
+        "first_name": "Anna",
+        "last_name": "Smith",
+        "email": "annasmith23@gmail.com"
+      }];
+      //for in
+      //for (var w in arr) {
+        //console.log(w);
+        //console.log(arr[w]);
+      //}
+      // for loop
+      for(var i=0;i<arr.length;i++) {
+        console.log(arr[i].id+" "+arr[i].first_name+" "+arr[i].last_name);
+      }
